@@ -1,0 +1,21 @@
+.advantages{
+    background-color: #2C1D27;
+    padding: 32px 0;
+}
+.advantages__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+.advantages__item{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    gap: 22px;
+    padding: 49px 56px;
+    padding-right: 31px;
+    border-radius: 10px;
+}
+.advantages__item p{
+    font-size: 20px;
+}

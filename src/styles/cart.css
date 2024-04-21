@@ -1,0 +1,215 @@
+.cart-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left !important;
+    padding-left: 0 !important;
+}
+
+.cart-title span {
+    color: #D4D4D4;
+    margin-left: 24px;
+    font-weight: 400;
+}
+
+.cart-puncts {
+    font-size: 12px;
+    text-transform: lowercase;
+    color: #D4D4D4;
+    font-weight: 400;
+    border-right: 1px solid #D4D4D4 !important;
+    border-left: 1px solid #D4D4D4 !important;
+}
+
+.cart-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.cart-table tbody {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cart-table th,
+.cart-table td {
+    border: 1px solid #D4D4D4;
+    padding: 8px;
+    text-align: center;
+}
+
+.cart-table th {
+    border: none;
+}
+
+.cart-table img {
+    max-width: 50px;
+    max-height: 50px;
+    vertical-align: middle;
+    border: 1px solid #D4D4D4;
+    margin-right: 12px;
+}
+
+.item-in-cart td:first-child {
+    vertical-align: top;
+}
+
+.last-column {
+    width: 107px !important;
+    border-right: 1px solid #D4D4D4 !important;
+    color: #C91111;
+    cursor: pointer;
+}
+.clear-cart{
+    transition: all 0.2s ease;
+}
+.clear-cart:hover{
+    background-color: #C91111;
+    color: #fff;
+}
+.delete__cart-td {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.delete__cart-td:hover{
+    background-color: #C91111;
+}
+.delete__cart-td:active{
+    background-color: #e21515;
+}
+.delete__cart-td:hover span{
+    color: #fff;
+}
+.delete__cart-td:hover svg path{
+    stroke: #fff;
+    fill: #fff;
+}
+.delete__cart-td:hover svg path:last-child{
+    fill: #fff;
+}
+.delete__cart-td span {
+    vertical-align: middle;
+    color: #C91111;
+}
+
+.delete__cart-td svg {
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.count_btn,
+.count-content {
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.count_btn svg{
+    pointer-events: none;
+}
+
+.item-cart-price {
+    font-size: 20px;
+}
+
+.item-cart-article {
+    font-size: 12px;
+}
+
+.item-cart-title span {
+    font-size: 12px;
+    font-weight: 600;
+}
+.item-in-cart td {
+    vertical-align: middle;
+}
+
+.empty-cart-message{
+    width: 100%;
+    background-color: #d4d4d4a9;
+    border-radius: 20px;
+    padding: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 52px 0;
+}
+.empty-cart-message p{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.empty-cart-message button{
+    background-color: #C91111;
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 50px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+/* Стили для случая, когда .order-item-container есть */
+.cart__mainRow {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 24px;
+}
+
+/* Стили для случая, когда .order-item-container отсутствует */
+.cart__mainRow:not(:has(.order-item-container)) {
+    display: grid;
+    grid-template-columns: 1fr; /* Значение, когда нет .order-item-container */
+}
+.order__items{
+    border: 1px solid #D4D4D4;
+    border-radius: 10px;
+    padding: 12px;
+    padding-bottom: 34px;
+}
+.order__item{
+    display: flex;
+    justify-content: space-between;
+}
+.order__item:first-child{
+    margin-bottom: 6px;
+}
+.order__item:nth-child(2){
+    padding-bottom: 12px;
+    border-bottom: 1px solid #D4D4D4;
+    margin-bottom: 34px;
+}
+.order__item span{
+    font-size: 14px;
+    color: #D4D4D4;
+}
+.order__item-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order__item-main p{
+    font-size: 20px;
+}
+.order__item-main span{
+    font-size: 20px;
+}
+.order-btn{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #CE3E28;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 11px;
+    margin-bottom: 12px;
+}
+.order-confirmation{
+    font-size: 12px;
+    text-align: center;
+}

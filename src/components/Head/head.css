@@ -1,0 +1,56 @@
+.head__catalog{
+    max-width: 225px;
+    border-right: 1px solid #a3a3a363;
+    border-left: 1px solid #a3a3a363;
+    padding: 0px 12px 0px 21px;
+}
+.head__catalog ul{
+    display: grid;
+    grid-gap: 16px;
+}
+.head__catalog ul li{
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.head__catalog ul li:hover{
+    color: #C91111;
+}
+.head__catalog ul li:nth-child(1)::before {
+    content: url(../Images/CatalogIcons/pc.svg);
+}
+.head__catalog ul li:nth-child(2)::before {
+    content: url(../Images/CatalogIcons/server.svg);
+}
+.head__catalog ul li:nth-child(3)::before {
+    content: url(../Images/CatalogIcons/phone_icon.svg);
+}
+.head__catalog ul li:nth-child(4)::before {
+    content: url(../Images/CatalogIcons/print.svg);
+}
+.head__catalog ul li:nth-child(5)::before {
+    content: url(../Images/CatalogIcons/acb.svg);
+}
+.head__catalog ul li:nth-child(6)::before {
+    content: url(../Images/CatalogIcons/core.svg);
+}
+.head__catalog ul li:nth-child(7)::before {
+    content: url(../Images/CatalogIcons/usb.svg);
+}
+.head__catalog ul li:nth-child(8)::before {
+    content: url(../Images/CatalogIcons/wifi.svg);
+}
+.head__catalog ul button{
+    color: #C91111;
+    width: 100%;
+    text-align: center;
+}
+.head__catalog ul button:hover{
+    color: #292929;
+}
+.head__container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}

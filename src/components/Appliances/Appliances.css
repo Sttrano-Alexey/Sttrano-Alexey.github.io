@@ -1,0 +1,12 @@
+.appliances__container h2{
+    font-size: 32px;
+    color: #757575;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.appliances__slider{
+    width: 100%;
+    background-color: #2C1D27;
+    height: 295px;
+}

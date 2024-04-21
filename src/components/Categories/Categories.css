@@ -1,0 +1,20 @@
+.categories__container h2{
+    font-size: 32px;
+    color: #757575;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+.categories__item{
+    width: 400px;
+    height: 269px;
+    background-color: #292929;
+    border-radius: 20px;
+}
+.categories__slider-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 32px;
+}
